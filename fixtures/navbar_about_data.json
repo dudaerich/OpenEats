@@ -6,7 +6,7 @@
             "name": "home", 
             "parent": null, 
             "title": "home", 
-            "url": "/recipe/", 
+            "url": "/openeats/recipe/", 
             "user_type": "E", 
             "groups": [], 
             "path_type": "P", 
@@ -20,7 +20,7 @@
             "name": "create", 
             "parent": null, 
             "title": "new recipe", 
-            "url": "/recipe/new/", 
+            "url": "/openeats/recipe/new/", 
             "user_type": "L", 
             "groups": [], 
             "path_type": "P", 
@@ -34,25 +34,11 @@
             "name": "sign in", 
             "parent": null, 
             "title": "sign in", 
-            "url": "/accounts/signIn/", 
+            "url": "/openeats/accounts/signIn/", 
             "user_type": "A", 
             "groups": [], 
             "path_type": "P", 
             "order": 3
-        }
-    }, 
-    {
-        "pk": 1, 
-        "model": "navbar.navbarentry", 
-        "fields": {
-            "name": "about", 
-            "parent": null, 
-            "title": "about", 
-            "url": "/about/", 
-            "user_type": "E", 
-            "groups": [], 
-            "path_type": "P", 
-            "order": 5
         }
     }, 
     {
@@ -62,7 +48,7 @@
             "name": "admin", 
             "parent": null, 
             "title": "admin", 
-            "url": "/admin/", 
+            "url": "/openeats/admin/", 
             "user_type": "X", 
             "groups": [], 
             "path_type": "P", 
@@ -76,24 +62,10 @@
             "name": "news",
             "parent": null,
             "title": "development blog",
-            "url": "/news/list/",
+            "url": "/openeats/news/list/",
             "user_type": "E",
             "groups": [],
             "path_type": "P",
-            "order": 6
-        }
-    },
-    {
-        "pk": 7,
-        "model": "navbar.navbarentry", 
-        "fields": {
-            "name": "blog", 
-            "parent": null, 
-            "title": "development blog", 
-            "url": "http://dev.openeats.org",
-            "user_type": "E", 
-            "groups": [], 
-            "path_type": "P", 
             "order": 6
         }
     },
@@ -103,7 +75,7 @@
          "fields": {
              "registration_required": false,
              "title": "about",
-             "url": "/about/",
+             "url": "/openeats/about/",
              "template_name": "flatpages/about_page.html",
              "sites": [
                  1

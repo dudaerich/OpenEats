@@ -15,4 +15,4 @@ class Entry(models.Model):
         return self.title
 
     def get_absolute_url(self):
-        return "/news/entry/%s/" % self.slug
+        return "/openeats/news/entry/%s/" % self.slug

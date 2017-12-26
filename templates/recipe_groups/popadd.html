@@ -9,7 +9,7 @@
   <body>
     <div class="well form-vertical">
       <h1>{% blocktrans %}Add {{ field }}{% endblocktrans %}</h1>
-        <form method="POST" action="/groups/popadd/{{ field }}/">{% csrf_token %}
+        <form method="POST" action="/openeats/groups/popadd/{{ field }}/">{% csrf_token %}
           {{ form.title.errors }}
             <p>{{ form.title.label_tag }} {{ form.title }}</p>
             <input type="hidden" id="id_author" name="author" value="{{ user.id }}" />

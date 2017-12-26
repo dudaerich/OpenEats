@@ -39,7 +39,7 @@ class Recipe(models.Model):
         return self.title
 
     def get_absolute_url(self):
-        return "/recipe/%s/" % self.slug
+        return "/openeats/recipe/%s/" % self.slug
 
     def get_reported(self):
         if ReportedRecipe.objects.filter(recipe=self):

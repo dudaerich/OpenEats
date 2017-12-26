@@ -15,7 +15,7 @@ def fav_link(user, recipe_id):
             return "<a class=\"btn btn-primary btn-sm\" id=\"recipe-store\">%s</a>" % translation.ugettext('favorite')
     else:
         recipe = Recipe.objects.get(pk=recipe_id)
-        return "<a class=\"btn btn-primary btn-sm\" href=\"/accounts/login?next=/recipe/%s/\">%s</a>" % (recipe.slug, translation.ugettext('favorite'))
+        return "<a class=\"btn btn-primary btn-sm\" href=\"/openeats/accounts/login?next=/recipe/%s/\">%s</a>" % (recipe.slug, translation.ugettext('favorite'))
 
 @register.simple_tag
 def report_link(user, recipe_id):

@@ -35,7 +35,7 @@
    });
     //used to save a note on a recipe
   $(function() {
-    $('#recipe-note p').editable('/recipe/ajaxnote/', {
+    $('#recipe-note p').editable('/openeats/recipe/ajaxnote/', {
         indicator : 'Saving...',
         tooltip   : 'Click to edit...',
         type      : 'textarea',
@@ -63,7 +63,7 @@
            callback: function(ui, type, value) {
              // Display message to the user at the begining of request
   		    $("#messages").text("Saving...").fadeIn(30);
-            $.post('/recipe/ajax-raterecipe/{{ recipe.id }}/' + value + '/', function(json) {
+            $.post('/openeats/recipe/ajax-raterecipe/{{ recipe.id }}/' + value + '/', function(json) {
 
                // Change widget's title
   		      $("#rating-title").text("Average rating");
