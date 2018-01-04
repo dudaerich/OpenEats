@@ -1,0 +1,1076 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-26 11:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: dashboard.py:25
+msgid "Quick Links"
+msgstr "Rýchle odkazy"
+
+#: dashboard.py:32
+msgid "Return to site"
+msgstr "Vrátiť späť na stránku"
+
+#: dashboard.py:36
+msgid "Change password"
+msgstr "Zmeniť heslo"
+
+#: dashboard.py:40
+msgid "Log out"
+msgstr "Odhlásiť sa"
+
+#: dashboard.py:49 dashboard.py:54
+msgid "Administration"
+msgstr "Administrácia"
+
+#: dashboard.py:72
+msgid "Third Party Applications"
+msgstr "Aplikácie tretích strán"
+
+#: dashboard.py:80
+msgid "Recent Actions"
+msgstr "Nedávne akcie"
+
+#: dashboard.py:88
+msgid "Support"
+msgstr "Podpora"
+
+#: dashboard.py:92
+msgid "OpenEats Forum"
+msgstr "OpenEats fórum"
+
+#: dashboard.py:97
+msgid "Django documentation"
+msgstr "Django dokumentácia"
+
+#: dashboard.py:102
+msgid "Django \"django-users\" mailing list"
+msgstr "Django \"django-users\" e-mailový list"
+
+#: dashboard.py:111
+msgid "Latest OpenEats2 News"
+msgstr "Najnovšie OpenEats2 novinky"
+
+#: settings.py:46 settings_postgres.py:42
+msgid "English"
+msgstr "Angličtina"
+
+#: settings.py:47 settings_postgres.py:43
+msgid "German"
+msgstr "Nemčina"
+
+#: settings.py:48 settings_postgres.py:44
+msgid "Spanish"
+msgstr "Španielčina"
+
+#: settings.py:49
+msgid "Slovak"
+msgstr ""
+
+#: accounts/models.py:8
+msgid "Male"
+msgstr "Muž"
+
+#: accounts/models.py:9
+msgid "Female"
+msgstr "Žena"
+
+#: accounts/models.py:12 list/models.py:11 list/models.py:38
+#: recipe/models.py:20 recipe/models.py:51
+msgid "user"
+msgstr "Užívateľ"
+
+#: accounts/models.py:13
+msgid "about"
+msgstr "O stránke"
+
+#: accounts/models.py:14
+msgid "gender"
+msgstr "Pohlavie"
+
+#: accounts/models.py:15
+msgid "url"
+msgstr "url"
+
+#: accounts/models.py:16
+msgid "location"
+msgstr "poloha"
+
+#: accounts/models.py:21
+msgid "User profiles"
+msgstr "Užívateľské profily"
+
+#: accounts/views.py:16
+msgid "You have been logged out!."
+msgstr "Boli ste odhlásený!"
+
+#: feed/views.py:8
+msgid " Recent Recipes"
+msgstr "Naposledy pridané recepty"
+
+#: feed/views.py:10
+msgid "Updates added on new recipes added to "
+msgstr "Recepty boli aktualizované v"
+
+#: feed/views.py:23
+msgid " Top Recipes"
+msgstr "Najlepšie recepty"
+
+#: feed/views.py:25
+msgid "Top recipes on "
+msgstr "Najlepšie recepty na"
+
+#: ingredient/models.py:7 news/models.py:7 recipe_groups/models.py:8
+#: recipe_groups/models.py:26
+msgid "title"
+msgstr "názov"
+
+#: ingredient/models.py:8
+msgid "quantity"
+msgstr "množstvo"
+
+#: ingredient/models.py:9
+msgid "measurement"
+msgstr "jednotka"
+
+#: ingredient/models.py:10
+msgid "preparation"
+msgstr "príprava"
+
+#: ingredient/models.py:11 list/models.py:79 recipe/models.py:50
+#: recipe/models.py:58 recipe/models.py:70
+msgid "recipe"
+msgstr "recept"
+
+#: list/forms.py:72
+msgid "Aisle with this name already exists for your account"
+msgstr ""
+
+#: list/forms.py:95 recipe/forms.py:64
+msgid "email address"
+msgstr "emailová adresa"
+
+#: list/forms.py:100
+msgid "Grocery list from "
+msgstr "Nákupný zoznam z "
+
+#: list/forms.py:110
+msgid "Can not get grocery list id from invalid form data"
+msgstr ""
+
+#: list/forms.py:117 recipe/forms.py:88
+msgid "Can not get to_email from invalid form data"
+msgstr ""
+
+#: list/forms.py:127 recipe/forms.py:100
+msgid "Invalid header found."
+msgstr ""
+
+#: list/forms.py:128 recipe/forms.py:101
+msgid "Email Sent"
+msgstr "E-mail bol poslaný"
+
+#: list/models.py:9
+msgid "grocery list title"
+msgstr "názov nákupného zoznamu"
+
+#: list/models.py:10 news/models.py:8 recipe/models.py:19
+#: recipe_groups/models.py:9 recipe_groups/models.py:27
+msgid "slug"
+msgstr ""
+
+#: list/models.py:37
+msgid "aisle"
+msgstr ""
+
+#: list/models.py:48 list/models.py:60 list/models.py:78
+#: templates/list/grocery_addrecipe.html:3
+#: templates/list/grocery_detail.html:3 templates/list/grocery_index.html:6
+#: templates/list/grocerylist_form.html:19
+#: templates/profiles/profile_detail.html:77 templates/sidebar/grocery.html:36
+msgid "grocery list"
+msgstr "nákupný zoznam"
+
+#: list/models.py:49
+msgid "item"
+msgstr "položka"
+
+#: list/models.py:61
+msgid "shared by"
+msgstr "zdieľané užívateľom"
+
+#: list/models.py:62
+msgid "shared to"
+msgstr "zdieľané užívateľovi"
+
+#: list/views.py:29
+msgid "Your grocery list has been removed."
+msgstr "Tvoj nakúpný zoznam bol zmazaný."
+
+#: list/views.py:62 list/views.py:66
+msgid "You do not have permissions to edit this list "
+msgstr "Nemaš oprávnenia upravovať tento zoznam."
+
+#: list/views.py:101 list/views.py:105
+msgid "You do not have permissions to view this list "
+msgstr "Nemáš oprávnenia vidieť tento zoznam."
+
+#: list/views.py:171
+msgid "Your grocery list has been shared."
+msgstr "Tvoj nakúpný zoznam je zdieľaný."
+
+#: list/views.py:186
+msgid "Grocery List has been un-shared"
+msgstr "Nákupný zoznam už nie je zdieľaný."
+
+#: list/views.py:214
+msgid "New Aisle added"
+msgstr ""
+
+#: news/models.py:9
+msgid "content"
+msgstr "obsah"
+
+#: news/models.py:10
+msgid "frontpage"
+msgstr "úvodná stránka"
+
+#: news/models.py:11
+msgid "image"
+msgstr "obrázok"
+
+#: pagination/templates/pagination/pagination.html:6
+#: pagination/templates/pagination/pagination.html:8
+#: templates/pagination/pagination.html:7
+#: templates/pagination/pagination.html:9
+msgid "previous"
+msgstr "predchádzajúci"
+
+#: pagination/templates/pagination/pagination.html:22
+#: pagination/templates/pagination/pagination.html:24
+#: templates/pagination/pagination.html:23
+#: templates/pagination/pagination.html:25
+msgid "next"
+msgstr "ďaľší"
+
+#: recipe/forms.py:74
+msgid "Can not get the recipe id from invalid form data"
+msgstr ""
+
+#: recipe/forms.py:92
+msgid " recipe: "
+msgstr "recept"
+
+#: recipe/models.py:14
+msgid "Share"
+msgstr "Zdieľaj"
+
+#: recipe/models.py:15
+msgid "Private"
+msgstr "Súkromný"
+
+#: recipe/models.py:18
+msgid "Recipe Title"
+msgstr "Názov receptu"
+
+#: recipe/models.py:21
+msgid "photo"
+msgstr "Fotka"
+
+#: recipe/models.py:22
+msgid "course"
+msgstr "chod"
+
+#: recipe/models.py:23
+msgid "cuisine"
+msgstr "kuchyňa"
+
+#: recipe/models.py:24 templates/profiles/profile_detail.html:49
+msgid "info"
+msgstr "popis"
+
+#: recipe/models.py:25 templates/recipe/recipe_detail.html:187
+#: templates/recipe/recipe_print.html:24
+msgid "cook time"
+msgstr "čas prípravy"
+
+#: recipe/models.py:26
+msgid "servings"
+msgstr "porcia"
+
+#: recipe/models.py:27
+msgid "directions"
+msgstr "inštrukcie"
+
+#: recipe/models.py:28
+msgid "shared"
+msgstr "zdieľané"
+
+#: recipe/models.py:29
+msgid "tags"
+msgstr "tagy"
+
+#: recipe/models.py:31
+msgid "related"
+msgstr "súvisiace"
+
+#: recipe/models.py:59 recipe/models.py:71 recipe_groups/models.py:10
+#: recipe_groups/models.py:28
+msgid "author"
+msgstr "autor"
+
+#: recipe/models.py:60
+msgid "note"
+msgstr "poznámka"
+
+#: recipe/views.py:50 recipe/views.py:65
+#, python-format
+msgid "Recipe %s is marked Private"
+msgstr "Recept %s je súkromný"
+
+#: recipe/views.py:144
+msgid "Recipe already in your favorites!"
+msgstr "Recept už je vo vašich obľúbených!"
+
+#: recipe/views.py:150
+msgid "Recipe added to your favorites!"
+msgstr "Recept bol pridaný do vašich obľúbených!"
+
+#: recipe/views.py:282
+msgid "Recipe has already been reported!"
+msgstr "Recept už bol zareportovaný!"
+
+#: recipe/views.py:287
+msgid "Recipe reported to the moderators!"
+msgstr "Recept bol zareportovaný moderátorom!"
+
+#: templates/404.html:3
+msgid "we could not find what you are looking for"
+msgstr "nenašli sme čo hľadáte"
+
+#: templates/404.html:7
+msgid ""
+"Our chef's ruined this recipe in the test kitchen, we suggest you try "
+"something else"
+msgstr ""
+
+#: templates/404.html:9
+msgid ""
+"Sorry the page came back with a 404 error we can't find what you are looking "
+"for"
+msgstr "Prepáčte server vrátil kód 404. Nemôžeme nájsť čo hľadáte pre"
+
+#: templates/404.html:10
+msgid "return to site"
+msgstr "návrat späť na stránku"
+
+#: templates/base.html:13
+msgid "Top Recipe Feed"
+msgstr "Najlepšie recepty"
+
+#: templates/base.html:48 templates/profiles/create_profile.html:5
+#: templates/profiles/edit_profile.html:6
+#: templates/profiles/profile_detail.html:7
+#: templates/profiles/profile_detail.html:42
+msgid "profile"
+msgstr "profil"
+
+#: templates/base.html:49
+msgid "grocery lists"
+msgstr "nákupný zoznam"
+
+#: templates/base.html:51 templates/profiles/profile_detail.html:89
+msgid "logout"
+msgstr "odhlásiť sa"
+
+#: templates/accounts/signIn_page.html:19
+msgid "sign in"
+msgstr "prihlásiť sa"
+
+#: templates/accounts/signIn_page.html:20
+msgid "sign up"
+msgstr "registrovať sa"
+
+#: templates/friends/_feed.html:8
+msgid "new recipe added- "
+msgstr "nový recept pridaný- "
+
+#: templates/friends/_feed.html:16
+msgid "rated a recipe "
+msgstr "recept bol ohodnotený "
+
+#: templates/friends/_feed.html:16
+msgid "out of 5 - "
+msgstr ""
+
+#: templates/friends/_feed.html:26
+msgid "new shared list- "
+msgstr "nový zdieľaný zoznam- "
+
+#: templates/friends/feed.html:5
+msgid "feed for "
+msgstr ""
+
+#: templates/friends/list.html:7
+msgid "chefs I'm following-"
+msgstr ""
+
+#: templates/friends/list.html:14
+msgid "un-follow"
+msgstr "prestať sledovať"
+
+#: templates/friends/list.html:22
+msgid "chefs following me-"
+msgstr ""
+
+#: templates/friends/list.html:29
+msgid "follow"
+msgstr "sledovať"
+
+#: templates/friends/list.html:29
+msgid "block"
+msgstr "blokovať"
+
+#: templates/friends/list.html:37
+msgid "chefs I'm blocking-"
+msgstr ""
+
+#: templates/friends/list.html:44
+msgid "unblock"
+msgstr "odblokovať"
+
+#: templates/list/_aisles.html:19
+msgid "Current Aisles"
+msgstr ""
+
+#: templates/list/_aisles.html:24
+msgid "you have not created any aisles yet!"
+msgstr ""
+
+#: templates/list/_list.html:10 templates/list/grocery_index.html:13
+msgid "created on "
+msgstr "vytvorený "
+
+#: templates/list/grocery_addrecipe.html:11
+#: templates/list/grocery_share.html:8 templates/list/groceryaisle_form.html:9
+msgid "save"
+msgstr "uložiť"
+
+#: templates/list/grocery_addrecipe.html:12
+#: templates/list/grocery_share.html:9
+#: templates/list/groceryaisle_form.html:10
+#: templates/list/grocerylist_form.html:51
+#: templates/recipe/recipe_form.html:164
+msgid "cancel"
+msgstr "zrušiť"
+
+#: templates/list/grocery_ajax.html:29
+msgid "You have not added any grocery list yet!"
+msgstr "Nemáte žiadny nákupný zoznam!"
+
+#: templates/list/grocery_ajax.html:30 templates/list/grocery_index.html:24
+msgid "create a grocery list"
+msgstr "vytvoriť nákupný zoznam"
+
+#: templates/list/grocery_detail.html:8
+msgid "this list is currently shared by"
+msgstr "tento zoznam je zdieľaný užívateľom"
+
+#: templates/list/grocery_detail.html:8
+msgid "to user"
+msgstr "užívateľovi"
+
+#: templates/list/grocery_detail.html:11
+msgid "grocery list -"
+msgstr "nákupný zoznam -"
+
+#: templates/list/grocery_index.html:3
+msgid "Grocery List"
+msgstr "Nákupný zoznam"
+
+#: templates/list/grocery_index.html:23
+msgid "You do not have any grocery list created"
+msgstr "Nemáte vytvorený žiadny nákupný zoznam"
+
+#: templates/list/grocery_index.html:28
+msgid "shared list"
+msgstr ""
+
+#: templates/list/grocery_index.html:34
+msgid "shared by "
+msgstr ""
+
+#: templates/list/grocery_mail_body.html:8
+#: templates/recipe/recipe_mail_body.html:8
+msgid "Email"
+msgstr ""
+
+#: templates/list/grocery_mail_body.html:13
+#: templates/list/grocery_print.html:14
+msgid "grocery list "
+msgstr "nákupný zoznam"
+
+#: templates/list/grocery_print.html:8 templates/recipe/recipe_print.html:9
+msgid "Print"
+msgstr "Vytlačiť"
+
+#: templates/list/groceryaisle_form.html:5
+msgid "add new aisle"
+msgstr ""
+
+#: templates/list/grocerylist_form.html:29
+msgid "items"
+msgstr "položky"
+
+#: templates/list/grocerylist_form.html:50
+msgid "save list"
+msgstr "uložiť zoznam"
+
+#: templates/news/entry_list.html:4
+msgid "news"
+msgstr "novinky"
+
+#: templates/news/entry_list.html:13 templates/news/front_page.html:11
+msgid "read more"
+msgstr "čítaj viac"
+
+#: templates/news/entry_list.html:18
+msgid "There currently isn't any news"
+msgstr "Momentálne nie sú žiadne novinky"
+
+#: templates/profiles/create_profile.html:5
+#: templates/profiles/edit_profile.html:6
+#: templates/recipe/recipe_detail.html:136
+msgid "edit"
+msgstr "upraviť"
+
+#: templates/profiles/edit_profile.html:16
+msgid "To change your profile picture you will need to create/login to"
+msgstr "Pre zmenu profilovej fotky sa musite prihlásiť do"
+
+#: templates/profiles/edit_profile.html:16
+msgid "Gravata "
+msgstr ""
+
+#: templates/profiles/edit_profile.html:16
+msgid "using the same email address you used for this site"
+msgstr "pomocou rovnakej emailovej adresy ako ste použili na tejto stránke"
+
+#: templates/profiles/edit_profile.html:17
+msgid "Change Password"
+msgstr "Zmeniť heslo"
+
+#: templates/profiles/profile_detail.html:51
+msgid "location:"
+msgstr "poloha"
+
+#: templates/profiles/profile_detail.html:54
+msgid "gender:"
+msgstr "pohlavie"
+
+#: templates/profiles/profile_detail.html:57
+msgid "website:"
+msgstr "webová stránka"
+
+#: templates/profiles/profile_detail.html:65
+msgid "all about me"
+msgstr "niečo o mne"
+
+#: templates/profiles/profile_detail.html:73
+msgid "recipes"
+msgstr "recepty"
+
+#: templates/profiles/profile_detail.html:75
+msgid "private recipes"
+msgstr "súkromné recepty"
+
+#: templates/profiles/profile_detail.html:76
+msgid "favorites"
+msgstr "obľúbené"
+
+#: templates/profiles/profile_detail.html:78
+msgid "followers"
+msgstr "sledovatelia"
+
+#: templates/profiles/profile_detail.html:79
+msgid "feed"
+msgstr ""
+
+#: templates/profiles/profile_detail.html:80
+msgid "settings"
+msgstr "nastavenia"
+
+#: templates/profiles/profile_detail.html:87
+msgid "edit Profile"
+msgstr "upraviť profil"
+
+#: templates/profiles/profile_detail.html:88
+#: templates/registration/password_change_form.html:16
+msgid "change password"
+msgstr "zmeniť heslo"
+
+#: templates/recipe/_list.html:34 templates/recipe/recipe_detail.html:178
+#: templates/recipe/recipe_print.html:17 templates/search/search.html:43
+msgid "Chef:"
+msgstr "Kuchár:"
+
+#: templates/recipe/_list.html:39 templates/search/search.html:49
+msgid "Average Rating:"
+msgstr "Priemerné hodnotenie"
+
+#: templates/recipe/_list.html:42 templates/recipe/recipe_detail.html:160
+#: templates/search/search.html:52
+msgid "Poor"
+msgstr "Slabý"
+
+#: templates/recipe/_list.html:43 templates/recipe/recipe_detail.html:161
+#: templates/search/search.html:53
+msgid "Fair"
+msgstr "Priemerný"
+
+#: templates/recipe/_list.html:44 templates/recipe/recipe_detail.html:162
+#: templates/search/search.html:54
+msgid "OK"
+msgstr "OK"
+
+#: templates/recipe/_list.html:45 templates/recipe/recipe_detail.html:163
+#: templates/search/search.html:55
+msgid "Good"
+msgstr "Dobrý"
+
+#: templates/recipe/_list.html:46 templates/recipe/recipe_detail.html:164
+#: templates/search/search.html:56
+msgid "Wow"
+msgstr "Vynikajúci"
+
+#: templates/recipe/index.html:42
+msgid "recipe tags"
+msgstr "tagy receptov"
+
+#: templates/recipe/recipe_cook.html:8 templates/recipe/recipe_print.html:14
+msgid "Recipe is marked Private and you are not the author of it!"
+msgstr "Recept je súkromný a vy nie ste jeho autor!"
+
+#: templates/recipe/recipe_cook.html:15
+#: templates/recipe/recipe_detail.html:209
+#: templates/recipe/recipe_print.html:28
+msgid "Ingredients"
+msgstr "Ingrediencie"
+
+#: templates/recipe/recipe_cook.html:32
+#: templates/recipe/recipe_detail.html:233
+msgid "Directions"
+msgstr "Pokyny"
+
+#: templates/recipe/recipe_detail.html:132
+msgid "print"
+msgstr "vytlačiť"
+
+#: templates/recipe/recipe_detail.html:133
+msgid "cook"
+msgstr "variť"
+
+#: templates/recipe/recipe_detail.html:143
+msgid "add to list"
+msgstr "pridať do zoznamu"
+
+#: templates/recipe/recipe_detail.html:144
+msgid "email recipe "
+msgstr "poslať na email"
+
+#: templates/recipe/recipe_detail.html:144
+msgid "email"
+msgstr "email"
+
+#: templates/recipe/recipe_detail.html:150
+msgid "tags:"
+msgstr "tagy:"
+
+#: templates/recipe/recipe_detail.html:158
+msgid "rate this:"
+msgstr "ohodnoť to:"
+
+#: templates/recipe/recipe_detail.html:184
+#: templates/recipe/recipe_print.html:23
+msgid "serves"
+msgstr "porcia pre"
+
+#: templates/recipe/recipe_detail.html:192
+msgid "Course:"
+msgstr "Chod:"
+
+#: templates/recipe/recipe_detail.html:194
+msgid "Cuisine:"
+msgstr "Kuchyňa"
+
+#: templates/recipe/recipe_detail.html:248
+#: templates/recipe/recipe_print.html:52
+msgid "Your Notes:"
+msgstr "Vaše poznámky:"
+
+#: templates/recipe/recipe_detail.html:260
+msgid "comments"
+msgstr "komentáre"
+
+#: templates/recipe/recipe_form.html:5
+msgid "Add Recipe"
+msgstr "Pridať recept"
+
+#: templates/recipe/recipe_form.html:55
+msgid "recipe info"
+msgstr "popis receptu"
+
+#: templates/recipe/recipe_form.html:139
+msgid "ingedients"
+msgstr "ingrediencie"
+
+#: templates/recipe/recipe_form.html:163
+msgid "save recipe"
+msgstr "uložiť recept"
+
+#: templates/recipe/recipe_list.html:7
+#, python-format
+msgid "%(title)s Recipe Feed"
+msgstr ""
+
+#: templates/recipe/recipe_list.html:16
+#, python-format
+msgid "%(title)s"
+msgstr ""
+
+#: templates/recipe/recipe_mail_body.html:13
+msgid " has shared a recipe with you"
+msgstr ""
+
+#: templates/recipe/recipe_print.html:24
+msgid "mintues"
+msgstr "minút"
+
+#: templates/recipe/recipe_print.html:44
+msgid "Steps"
+msgstr "kroky"
+
+#: templates/recipe/recipe_userfav.html:32
+msgid "You have not added any favorite recipes yet!"
+msgstr "Nemáte žiadny obľúbený recept!"
+
+#: templates/recipe/recipe_userlist.html:41
+msgid "has not added any recipes yet!"
+msgstr ""
+
+#: templates/recipe_groups/course_form.html:9
+msgid "add course"
+msgstr "pridať chod"
+
+#: templates/recipe_groups/course_list.html:6
+msgid "Course List"
+msgstr "Zoznam chodov"
+
+#: templates/recipe_groups/cuisine_list.html:6
+msgid "Cuisine List"
+msgstr "Zoznam kuchýň"
+
+#: templates/recipe_groups/popadd.html:8
+msgid "Add"
+msgstr "Pridať"
+
+#: templates/recipe_groups/popadd.html:12
+#, python-format
+msgid "Add %(field)s"
+msgstr "Pridať %(field)"
+
+#: templates/recipe_groups/popadd.html:17
+msgid "submit"
+msgstr "Potvrdiť"
+
+#: templates/recipe_groups/popadd.html:17
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: templates/recipe_groups/recipe_list.html:14
+msgid "Recipes in "
+msgstr "Recepty v "
+
+#: templates/registration/_create_form.html:5
+#: templates/registration/_login_form.html:5
+msgid "Alert!"
+msgstr "Pozor!"
+
+#: templates/registration/_create_form.html:50
+msgid "create account"
+msgstr "vytvoriť účet"
+
+#: templates/registration/_login_form.html:5
+msgid "Your username and password didn't match. Please try again."
+msgstr "Tvoje užívateľské meno a heslo sa nezhodujú. Prosím skús znova."
+
+#: templates/registration/_login_form.html:26
+msgid "login"
+msgstr "prihlásiť sa"
+
+#: templates/registration/activate.html:5
+msgid "Account activation key is invalid!"
+msgstr "Aktivačný kód je nevalidný!"
+
+#: templates/registration/activation_complete.html:5
+msgid "Account now Active!"
+msgstr "Váš účet je aktivovaný!"
+
+#: templates/registration/login.html:3
+msgid "Login"
+msgstr "Prihlásiť sa"
+
+#: templates/registration/login.html:6
+msgid "create an account"
+msgstr "vytvoriť účet"
+
+#: templates/registration/logout.html:4
+msgid "You have been succesfully logged out!"
+msgstr "Boli ste úspešne odhlásený!"
+
+#: templates/registration/password_change_done.html:4
+msgid "Password changed Succesful"
+msgstr "Heslo bolo úspešne zmenené"
+
+#: templates/registration/password_change_done.html:5
+msgid "Your password was changed."
+msgstr "Vaše heslo bolo zmenené."
+
+#: templates/registration/password_reset_complete.html:4
+msgid "Password reset complete"
+msgstr "Vaše heslo bolo zresetované"
+
+#: templates/registration/password_reset_complete.html:5
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr "Vaše heslo bolo nastavené. Môžete sa teraz prihlásiť."
+
+#: templates/registration/password_reset_complete.html:6
+msgid "Log in"
+msgstr "Prilhásiť sa"
+
+#: templates/registration/password_reset_confirm.html:6
+msgid "Enter new password"
+msgstr "Vložte nové heslo"
+
+#: templates/registration/password_reset_confirm.html:7
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+"Prosím napíšte heslo dva krát aby sme mohli overiť, že ste ho zadali správne."
+
+#: templates/registration/password_reset_confirm.html:10
+msgid "New password:"
+msgstr "Nové heslo:"
+
+#: templates/registration/password_reset_confirm.html:12
+msgid "Confirm password:"
+msgstr "Potvrdenie hesla:"
+
+#: templates/registration/password_reset_confirm.html:13
+msgid "Change my password"
+msgstr "Zmeniť moje heslo"
+
+#: templates/registration/password_reset_confirm.html:16
+msgid "Password reset unsuccessful"
+msgstr "Reset hesla nebol úspešný"
+
+#: templates/registration/password_reset_confirm.html:17
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+"Odkaz na reset hesla bola zlý, možno preto, že už bol raz použitý. Prosím "
+"požiadajte znova o reset hesla."
+
+#: templates/registration/password_reset_done.html:4
+msgid "Password reset successful"
+msgstr "Heslo bolo úspešne zresetované"
+
+#: templates/registration/password_reset_done.html:5
+msgid ""
+"We've e-mailed a new password to the e-mail address you submitted. You "
+"should be receiving it shortly."
+msgstr ""
+"Na vašu emailovú adresu sme zaslali nové heslo. Mali by ste ho čoskoro "
+"prijať."
+
+#: templates/registration/password_reset_form.html:4
+msgid "Password reset"
+msgstr "Resetovanie hesla"
+
+#: templates/registration/password_reset_form.html:5
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll reset "
+"your password and e-mail the new one to you."
+msgstr ""
+"Zabudli ste heslo? Vložte vašu emailovú adresu, my ho zresetujeme a pošleme "
+"vám na email nové."
+
+#: templates/registration/password_reset_form.html:8
+msgid "E-mail address:"
+msgstr "E-mailová adresa:"
+
+#: templates/registration/password_reset_form.html:8
+msgid "reset password"
+msgstr "zresetovať heslo"
+
+#: templates/registration/registration_complete.html:5
+msgid "Activation Link Sent"
+msgstr "Aktivačný link bol poslaný"
+
+#: templates/registration/registration_complete.html:6
+msgid "Thank you for signing up for"
+msgstr "Ďakujeme že ste sa zaregistrovali"
+
+#: templates/registration/registration_complete.html:6
+msgid "you have been emailed an activation link"
+msgstr "poslali sme vám aktivačný odkaz na váš email"
+
+#: templates/relationships/confirm.html:4
+#: templates/relationships/confirm.html:7
+msgid "No longer"
+msgstr ""
+
+#: templates/relationships/confirm.html:12
+msgid "Confirm"
+msgstr "Potvrdiť"
+
+#: templates/relationships/success.html:5
+msgid "Success"
+msgstr "Úspech"
+
+#: templates/relationships/success.html:6
+msgid "You are "
+msgstr "Ste "
+
+#: templates/relationships/success.html:6
+msgid "now"
+msgstr "teraz"
+
+#: templates/relationships/success.html:6
+msgid "no longer"
+msgstr "nie viac"
+
+#: templates/relationships/success.html:7
+#, python-format
+msgid "%(to_user_username)s's profile"
+msgstr ""
+
+#: templates/search/search.html:16
+msgid "Search Results"
+msgstr "Výsledky hľadania"
+
+#: templates/search/search.html:67
+msgid "No Results found for search query"
+msgstr "Žiadne výsledky neboli nájdené"
+
+#: templates/sidebar/browse.html:4
+msgid "last viewed"
+msgstr "naposledy videné"
+
+#: templates/sidebar/browse.html:12
+msgid "browse"
+msgstr "prehľadávať"
+
+#: templates/sidebar/browse.html:14
+msgid "top recipes"
+msgstr "najlepšie recepty"
+
+#: templates/sidebar/browse.html:15
+msgid "recent recipes"
+msgstr "naposledy pridané recepty"
+
+#: templates/sidebar/grocery.html:9
+msgid "actions"
+msgstr "akcie"
+
+#: templates/sidebar/grocery.html:11
+msgid "print "
+msgstr "vytlačiť "
+
+#: templates/sidebar/grocery.html:12
+msgid "edit "
+msgstr "upraviť "
+
+#: templates/sidebar/grocery.html:13
+msgid "send list "
+msgstr "poslať zoznam "
+
+#: templates/sidebar/grocery.html:13
+msgid "email "
+msgstr "email "
+
+#: templates/sidebar/grocery.html:15
+msgid "delete "
+msgstr "zmazať "
+
+#: templates/sidebar/grocery.html:19
+msgid "share"
+msgstr "zdieľať"
+
+#: templates/sidebar/grocery.html:21
+msgid "un-share"
+msgstr "nezdieľať"
+
+#: templates/sidebar/grocery.html:25
+msgid "recipes on list"
+msgstr "recepty na zozname"
+
+#: templates/sidebar/grocery.html:30
+msgid "no recipes"
+msgstr "žiadne recepty"
+
+#: templates/sidebar/grocery.html:38
+msgid "create"
+msgstr "vytvoriť"
+
+#: templates/sidebar/grocery.html:39
+msgid "list"
+msgstr "zoznam"
+
+#: templates/sidebar/grocery.html:40
+msgid "manage aisles"
+msgstr ""
+
+#: templates/sidebar/grocery.html:41
+msgid "browse recipes"
+msgstr "prehľadávať recepty"
+
+#: templatetags/front_page.py:14
+msgid "No Front page News"
+msgstr ""
+
+#: templatetags/front_page.py:15
+msgid "Currently not any front page news on this site"
+msgstr ""
+
+#: templatetags/recipe_links.py:13
+msgid "bookmakred"
+msgstr "uložené"
+
+#: templatetags/recipe_links.py:15 templatetags/recipe_links.py:18
+msgid "favorite"
+msgstr "obľúbené"
+
+#: templatetags/recipe_links.py:27
+msgid "reported!"
+msgstr "nahlásené!"
+
+#: templatetags/recipe_links.py:29
+msgid "report"
+msgstr "nahlásiť"
